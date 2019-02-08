@@ -1,0 +1,38 @@
+/* Recent work */
+.recent-work {
+  padding-top: 2.5rem;
+}
+.recent-work-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-work-boxes .box {
+  background-color: #fff;
+  flex: 0 1 32%;
+  position: relative;
+}
+.recent-work-boxes .box::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: solid 45px white;
+  border-right: solid 45px transparent;
+  /* box-shadow: -1px 2px 35px -10px rgba(0, 0, 0, 0.61); */
+  top: 100%;
+  left: 0;
+}
+
+.recent-work-boxes .box .recent-work-image img {
+  width: 100%;
+  height: auto;
+}
+.recent-work-boxes .box h4 {
+  color: var(--dark-color);
+  padding: 1.2rem 2rem 0 2rem;
+}
+.recent-work-boxes .box p {
+  font-style: italic;
+  padding: 0.2rem 2rem 3rem 2rem;
+}

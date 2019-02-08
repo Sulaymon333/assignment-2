@@ -1,0 +1,84 @@
+/*=== HEADER STYLING ===*/
+.main-header {
+  background-color: rgb(73, 70, 70);
+  position: relative;
+  border-image: url(../images/Border-BG.jpg) 50 repeat;
+  border-bottom: 1.1rem solid transparent;
+}
+/* .main-header::after {
+  content: "";
+  display: table;
+  position: absolute;
+
+  transform: rotateY(180deg); 
+  opacity: 0.5;
+} */
+
+.hero-items::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: solid 45px var(--global-blue);
+  border-right: solid 45px transparent;
+  top: 100%;
+  left: 0;
+}
+
+.hero-items {
+  display: flex;
+  /* flex-wrap: wrap;
+  align-content: space-between; */
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* height: 30vh; */
+  position: relative;
+}
+.hero {
+  display: flex;
+  /* border: solid red 1px; */
+  justify-content: center;
+}
+.hero-image {
+  flex: 0 2 auto;
+  height: auto;
+  /* border: solid rgb(0, 60, 255) 1px; */
+}
+.hero-image img {
+  width: 100%;
+  /* height: auto; */
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex: 0 1 30%;
+  /* border: solid yellow 1px; */
+}
+.hero-description h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(233, 225, 225);
+}
+
+/* .get-started {
+  flex: 3;
+  border: solid green 1px; 
+} */
+
+.action-box {
+  background-color: var(--global-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 2rem;
+}
+.action-box h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgb(233, 225, 225);
+}

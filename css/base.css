@@ -1,0 +1,97 @@
+html {
+  font-size: 88.5%;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700");
+:root {
+  --global-bg: #efefef;
+  --global-color: rgb(128, 123, 123);
+  --global-blue: rgb(61, 142, 211);
+  --dark-color: rgb(34, 31, 31);
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--global-color);
+  line-height: 1.4;
+  font-size: 1.4rem;
+  background: var(--global-bg);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Button */
+.btn {
+  padding: 1.2rem 3rem;
+  text-transform: uppercase;
+  border-radius: 0.2rem;
+  border: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.blue {
+  background-color: var(--global-blue);
+  color: rgb(233, 225, 225);
+}
+
+.grey {
+  background-color: #e0e5e7;
+  color: rgb(128, 123, 123);
+}
+
+/* section */
+section {
+  padding: 8rem 0;
+}
+
+/* border background */
+.border-bg {
+  background-image: url(../images/Border-BG.jpg);
+  opacity: 0.5;
+  background-size: 6.3rem auto;
+  transform: rotateY(180deg);
+  text-align: center;
+  text-transform: uppercase;
+}
+.border-bg > * {
+  display: inline-block;
+  background-color: #efefef;
+  transform: rotateY(-180deg);
+  font-size: 1.4rem;
+  padding: 0 1rem;
+  margin: 0;
+  font-weight: 400;
+  color: rgb(43, 41, 41);
+}
+.hr-bg {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*inline-heading*/
+
+.inline-heading {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.no-italic {
+  font-style: normal;
+}
+.h3 {
+  color: rgb(34, 31, 31);
+}
+a {
+  text-decoration: none;
+  color: rgb(233, 225, 225);
+}

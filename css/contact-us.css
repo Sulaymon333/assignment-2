@@ -1,0 +1,17 @@
+.contact-us-section {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.contact-us {
+  position: relative;
+}
+.contact-us::after {
+  content: "";
+  border-top: solid 45px var(--global-blue);
+  border-right: solid 45px transparent;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 100%;
+  left: 0;
+}
