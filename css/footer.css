@@ -23,6 +23,7 @@
   text-transform: uppercase;
   padding-top: 3rem;
   padding-bottom: 1.5rem;
+  font-weight: 400;
 }
 .footer-boxes .box b {
   color: #fff;
@@ -75,6 +76,25 @@
   flex: 0 1 30%;
   justify-content: space-around;
   font-size: 3rem;
+}
+.footer-copyright-social-media .copyright-social-media .footer-social a:hover {
+  color: white;
+}
+.footer-copyright-social-media .copyright-social-media .footer-social li {
+  position: relative;
+}
+.footer-copyright-social-media
+  .copyright-social-media
+  .footer-social
+  li:hover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 15px solid var(--global-color);
+  border-right: 15px solid transparent;
+  position: absolute;
+  top: -18%;
+  left: 50%;
 }
 .footer-copyright-social-media .up-arrow {
   flex: 0 1 10%;

@@ -31,7 +31,7 @@ body {
 
 /* Button */
 .btn {
-  padding: 1.2rem 3rem;
+  padding: 1rem 3rem;
   text-transform: uppercase;
   border-radius: 0.2rem;
   border: none;
@@ -91,10 +91,10 @@ section {
 .h3 {
   color: rgb(34, 31, 31);
 }
-a:link {
+a {
   text-decoration: none;
   color: var(--global-color);
 }
-a:visited {
+/* a:visited {
   color: var(--global-blue);
-}
+} */
