@@ -1,0 +1,8 @@
+@media all and (max-width: 600px) {
+  .features-boxes {
+    flex-wrap: wrap;
+  }
+  .features-boxes .box {
+    flex: 0 1 50%;
+  }
+}

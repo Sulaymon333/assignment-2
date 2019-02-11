@@ -15,9 +15,10 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/features.css" />
     <link rel="stylesheet" href="./css/recent-work.css" />
-    <link rel="stylesheet" href="./css/testimonial.css" />
+    <link rel="stylesheet" href="./css/testimonial-development.css" />
     <link rel="stylesheet" href="./css/contact-us.css" />
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
   </head>
   <body>
     <header class="main-header">
@@ -152,7 +153,7 @@
         <div class="border-bg testimonial-hr">
           <h2>Testimonials</h2>
         </div>
-        <div class="border-bg devlopment-hr">
+        <div class="border-bg development-hr">
           <h2>development</h2>
         </div>
       </div>
@@ -192,37 +193,46 @@
               </p>
             </div>
           </div>
-          <div class="box development-boxes">
-            <div class="development-boxes">
-              <div class="development-content-box-1">
-                <h3 class="development-header">Design</h3>
-                <h3 class="development-header">Production</h3>
-                <div class="development-content">
-                  <h4 class="testimonial-title">The Design</h4>
-                  <p class="testimonial-description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Repudiandae commodi dignissimos illum tempora animi. At
-                    autem temporibus maxime ullam eos.
-                  </p>
-                </div>
+          <div class="box tabs">
+            <div class="tab">
+              <input name="checkbox-tabs-group" type="radio" id="checkbox-1" class="checkbox-tab" checked>
+			        <label for="checkbox-1">Design</label>
+              <div class="content">
+                <h4 class="development-title">The Design</h4>
+                <p class="development-description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae commodi dignissimos illum tempora animi. At
+                  autem temporibus maxime ullam eos.
+                  <br>
+                  <br>
+                  &ldquo;Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae commodi dignissimos illum tempora animi. At
+                  autem temporibus maxime ullam eos.&rdquo;
+                </p>
                 <button class="btn blue development-button">
                   <a href="">Read more</a>
                 </button>
               </div>
-              <!-- <div class="development-content-box-2">
-                <h3 class="development-header">Design</h3>
-                <div class="development-content">
-                  <h4 class="testimonial-title">The Design</h4>
-                  <p class="testimonial-description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Repudiandae commodi dignissimos illum tempora animi. At
-                    autem temporibus maxime ullam eos.
-                  </p>
-                </div>
+            </div>
+            <div class="tab">
+              <input name="checkbox-tabs-group" type="radio" id="checkbox-2" class="checkbox-tab">
+			        <label for="checkbox-2">Production</label>
+              <div class="content">
+                <h4 class="development-title">The Production</h4>
+                <p class="development-description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae commodi dignissimos illum tempora animi. At
+                  autem temporibus maxime ullam eos.
+                  <br>
+                  <br>
+                  &ldquo;Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae commodi dignissimos illum tempora animi. At
+                  autem temporibus maxime ullam eos.&rdquo;
+                </p>
                 <button class="btn blue development-button">
                   <a href="">Read more</a>
                 </button>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -298,12 +308,12 @@
         <div class="copyright-social-media">
           <p class="copyright">Copyright &copy; 2003-2012 Ventus Inc. All rights reserved.</p>
           <ul class="footer-social">
-            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-vimeo-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square"><span class="tooltip">Twitter</span></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"><span class="tooltip">Facebook</span></i></a></li>
+            <li><a href="#"><i class="fab fa-vimeo-square"><span class="tooltip">Vimeo</span></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square"><span class="tooltip">Google+</span></i></a></li>
+            <li><a href="#"><i class="fab fa-dribbble-square"><span class="tooltip">Dribble</span></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest-square"><span class="tooltip">Pinterest</span></i></a></li>
           </ul>
         </div>
         <div class="up-arrow"><a href="./index.html"><i class="fas fa-arrow-circle-up"></i></a></div>
