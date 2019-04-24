@@ -2,7 +2,7 @@ html {
   font-size: 88.5%;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700");
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700');
 :root {
   --global-bg: #efefef;
   --global-color: rgb(128, 123, 123);
@@ -18,7 +18,7 @@ html {
 }
 body {
   font-family: Verdana, Geneva, sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--global-color);
   line-height: 1.4;
   font-size: 1.4rem;
@@ -56,7 +56,7 @@ section {
 
 /* border background */
 .border-bg {
-  background-image: url(../images/Border-BG.jpg);
+  background-image: url(../assets/Border-BG.jpg);
   opacity: 0.5;
   background-size: 6.3rem auto;
   transform: rotateY(180deg);
