@@ -1,26 +1,12 @@
 /* features */
 .features-boxes {
-  display: flex;
-  flex-wrap: wrap;
   text-align: center;
-  justify-content: space-around;
-}
-.features-boxes .box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 40vh;
-  align-items: center;
-  flex: 1 1 300px;
-  padding: 2rem;
-  margin-bottom: 1rem;
-  position: relative;
 }
 
 /* .features-boxes .box p {
   flex: 1;
 } */
-.features-boxes .box:hover {
+.features-boxes .box-4-col:hover {
   box-shadow: -1px 14px 32px -10px rgba(0, 0, 0, 0.61);
   background: white;
   cursor: pointer;
@@ -28,7 +14,7 @@
 .box:hover .icons {
   background: radial-gradient(circle closest-side, rgb(137, 177, 212), var(--global-blue));
 }
-.features-boxes .box:hover::after {
+.features-boxes .box-4-col:hover::after {
   content: '';
   position: absolute;
   width: 0;

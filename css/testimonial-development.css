@@ -4,28 +4,13 @@
 .development-hr {
   flex: 0 1 32%;
 }
-section.testimonial-development {
-  padding-top: 3rem;
-}
-.testimonial-development-boxes {
-  display: flex;
-  justify-content: space-between;
-}
-.testimonial-boxes {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 0 1 66%;
-  justify-content: space-between;
-  align-content: space-between;
-  /* min-height: 30rem; */
-  min-height: 460px;
-}
+
 .testimonial-boxes .box {
   background-color: #fff;
   flex: 0 1 48%;
   position: relative;
 }
-.testimonial-boxes .box::after {
+*/ .testimonial-boxes .box::after {
   content: '';
   position: absolute;
   width: 0;
@@ -36,11 +21,13 @@ section.testimonial-development {
   top: 100%;
   left: 0;
 }
-.testimonial-boxes .box h4 {
+.top h4,
+.bottom h4 {
   color: var(--dark-color);
   padding: 1.2rem 2rem 0 2rem;
 }
-.testimonial-boxes .box p {
+.top p,
+.bottom p {
   font-style: italic;
   padding: 0.2rem 2rem 3rem 2rem;
 }
