@@ -41,14 +41,15 @@
 .footer-boxes .box-4 .footer-item-description {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .footer-boxes .box-4 .flickr-images {
-  flex: 0 1 24%;
+  flex: 0 1 40px;
 }
-.footer-boxes .box-4 .flickr-images img {
-  width: 100%;
+.footer-boxes .box-4 .flickr-images:not(:last-child) {
+  margin-right: 10px;
 }
+
 .footer-copyright-social-media {
   background: rgb(36, 35, 35);
   display: flex;
