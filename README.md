@@ -4,7 +4,7 @@ This project is developed as part of my 6 months coding bootcamp at Integrify He
 
 ## Demo
 
-You can see the live demo of the App here:
+You can see the live demo of the website here:
 
 [(https://sulaymon333.github.io/cloning-a-responsive-website-HTML-CSS/)](https://sulaymon333.github.io/cloning-a-responsive-website-HTML-CSS/)
 
