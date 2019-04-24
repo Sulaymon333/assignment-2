@@ -111,6 +111,14 @@ h3 {
 .h3 {
   color: rgb(34, 31, 31);
 }
+h4 {
+  font-size: calc(0.4vw + 12px);
+}
+
+li {
+  font-size: calc(0.3vw + 8px);
+  list-style: none;
+}
 
 p {
   font-size: calc(0.25vw + 13px);
@@ -146,9 +154,7 @@ a {
 }
 
 .box-3-col {
-  background-color: #fff;
   flex: 0 1 375px;
-  box-shadow: -1px 14px 32px -10px rgba(0, 0, 0, 0.61);
   margin-bottom: 4.5rem;
   position: relative;
 }
@@ -156,7 +162,6 @@ a {
 .box-4-col {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   flex: 1 1 300px;
   padding: 2rem;

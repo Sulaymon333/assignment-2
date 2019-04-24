@@ -3,9 +3,6 @@
   text-align: center;
 }
 
-/* .features-boxes .box p {
-  flex: 1;
-} */
 .features-boxes .box-4-col:hover {
   box-shadow: -1px 14px 32px -10px rgba(0, 0, 0, 0.61);
   background: white;
