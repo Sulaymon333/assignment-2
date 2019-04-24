@@ -1,6 +1,7 @@
 html {
   font-size: 88.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700');
 :root {
@@ -24,21 +25,30 @@ body {
   font-size: 1.4rem;
   background: var(--global-bg);
 }
+
+/* Container styling */
 .container {
-  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 /* Button */
 .btn {
-  padding: 1rem 3rem;
+  padding: calc(0.4vw + 5px) calc(1.2vw + 8px);
   text-transform: uppercase;
   border-radius: 0.2rem;
   border: none;
-  font-weight: 400;
-  font-size: 1.4rem;
+  font-weight: 700;
+  font-size: calc(0.4vw + 8px);
+  cursor: pointer;
 }
 
+/* image */
+img {
+  width: 100%;
+}
+
+/* text color */
 .blue {
   background-color: var(--global-blue);
   color: rgb(233, 225, 225);
@@ -79,7 +89,6 @@ section {
 }
 
 /*inline-heading*/
-
 .inline-heading {
   font-style: italic;
   font-weight: bold;
@@ -88,13 +97,44 @@ section {
 .no-italic {
   font-style: normal;
 }
+
+/* headings and paragraph font size*/
+h1 {
+  font-size: calc(1.1vw + 10px);
+}
+h2 {
+  font-size: calc(0.8vw + 10px);
+}
+h3 {
+  font-size: calc(0.3vw + 12px);
+}
 .h3 {
   color: rgb(34, 31, 31);
 }
+
+p {
+  font-size: calc(0.25vw + 13px);
+}
+
 a {
   text-decoration: none;
   color: var(--global-color);
 }
+
+/* icons */
+.fas {
+  font-size: calc(0.3vw + 13px);
+}
+
 /* a:visited {
   color: var(--global-blue);
 } */
+
+/* Media query */
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

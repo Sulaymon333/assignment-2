@@ -1,8 +1,9 @@
 /* features */
 .features-boxes {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .features-boxes .box {
   display: flex;
@@ -10,38 +11,22 @@
   justify-content: space-between;
   min-height: 40vh;
   align-items: center;
-  flex: 0 1 25%;
+  flex: 1 1 300px;
   padding: 2rem;
+  margin-bottom: 1rem;
   position: relative;
-  /* padding-bottom: 2rem; */
 }
+
+/* .features-boxes .box p {
+  flex: 1;
+} */
 .features-boxes .box:hover {
-  box-shadow: 10px 0 5px -2px var(--global-color);
   box-shadow: -1px 14px 32px -10px rgba(0, 0, 0, 0.61);
-  /* box-shadow: 34px -37px 32px -34px rgba(0, 0, 0, 0.4); */
   background: white;
   cursor: pointer;
 }
 .box:hover .icons {
-  background: linear-gradient(
-    45deg,
-    #1e5799 0%,
-    #2989d8 50%,
-    #207cca 51%,
-    #7db9e8 100%
-  );
-  background: linear-gradient(
-    45deg,
-    #1e5799 0%,
-    #2989d8 38%,
-    #7db9e8 52%,
-    #207cca 58%
-  );
-  background: radial-gradient(
-    circle closest-side,
-    rgb(137, 177, 212),
-    var(--global-blue)
-  );
+  background: radial-gradient(circle closest-side, rgb(137, 177, 212), var(--global-blue));
 }
 .features-boxes .box:hover::after {
   content: '';
@@ -50,43 +35,28 @@
   height: 0;
   border-top: solid 45px white;
   border-right: solid 45px transparent;
-  /* box-shadow: -1px 2px 35px -10px rgba(0, 0, 0, 0.61); */
   top: 100%;
   left: 0;
 }
 .features-boxes h3 {
   text-transform: uppercase;
   color: rgb(128, 123, 123);
-  font-weight: 300;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
 }
 
 .features-boxes .feature-description {
-  font-size: 1.4rem;
   color: rgb(128, 123, 123);
-  padding-bottom: 1.5rem;
+  padding: 1.2rem 0 3rem 0;
 }
 
-.feature-boxes .feature-button {
-}
 .icons {
   color: white;
-  background-image: radial-gradient(
-    circle closest-side,
-    rgb(126, 119, 119),
-    rgb(43, 41, 41)
-  );
+  background-image: radial-gradient(circle closest-side, rgb(126, 119, 119), rgb(43, 41, 41));
   font-size: 1.2rem;
-  width: 8rem;
-  height: 8rem;
+  width: calc(2vw + 30px);
+  height: calc(2vw + 30px);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media all and (max-width: 600px) {
-  .features-boxes .bo {
-  }
 }
