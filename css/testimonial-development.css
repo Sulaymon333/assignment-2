@@ -36,6 +36,9 @@
 }
 
 /*== DEVELOPMENT ==*/
+.tabs {
+  box-shadow: -1px 14px 32px -10px rgba(0, 0, 0, 0.61);
+}
 
 .tabs .tab {
   float: left;
